@@ -27,7 +27,7 @@ COMMON_OBJS = dynamic_flac.o \
 PREFIX  = arm-vita-eabi
 CC      = $(PREFIX)-gcc
 AR      = $(PREFIX)-ar
-CFLAGS  = -Wl,-q -Wall -O3 -I$(VITASDK)/arm-vita-eabi/include/SDL -DOGG_MUSIC
+CFLAGS  = -Wl,-q -Wall -O3 -I$(VITASDK)/arm-vita-eabi/include/SDL -DOGG_MUSIC -DMOD_MUSIC
 
 ASFLAGS = $(CFLAGS)
 
